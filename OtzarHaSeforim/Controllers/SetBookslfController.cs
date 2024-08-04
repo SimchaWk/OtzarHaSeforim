@@ -43,7 +43,6 @@ namespace OtzarHaSeforim.Controllers
         public async Task<IActionResult> Create(SetBooksVM setBooksVM, long shelfId)
         {
             ViewBag.ShelfId = shelfId;
-            //setBooksVM.ShelfId = shelfId;
 
             int setWidth = setBooksVM.Books.Aggregate(0, (sum, book) => sum + book.WidthBook);
             int setHigh = setBooksVM.Books.FirstOrDefault()?.HighBook ?? 0;
