@@ -53,7 +53,6 @@ namespace OtzarHaSeforim.Controllers
                     .Where(s => s.Id == shelfId)
                     .FirstOrDefault()?
                     .Id?? 0;
-            int s = _shelfService.GetShelfFreeSpace(shelfId);
 
             long suitableShelId = _shelfService.FindSuitableShelf(libraryId, setWidth, setHigh);
 
