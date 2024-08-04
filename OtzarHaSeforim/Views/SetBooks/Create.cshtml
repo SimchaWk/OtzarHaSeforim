@@ -57,11 +57,9 @@
             var container = document.getElementById('books-container');
             var index = container.getElementsByClassName('book-entry').length;
 
-            // קבלת הערכים של הספר האחרון שנוסף
             var lastBookName = container.querySelector('input[name="Books[' + (index - 1) + '].BookName"]').value;
             var lastBookWidth = container.querySelector('input[name="Books[' + (index - 1) + '].WidthBook"]').value;
 
-            // בדיקת ערכים תקינים
             if (!lastBookName || lastBookWidth <= 0) {
                 alert('Please enter a valid book name and width.');
                 return;

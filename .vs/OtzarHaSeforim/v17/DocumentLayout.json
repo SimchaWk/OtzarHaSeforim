@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\setbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\setbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\setbooks\\requestnewshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\setbooks\\requestnewshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\library\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\library\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\shelf\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\shelf\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\shelf\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\shelf\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\setbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\setbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\shelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\shelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\controllers\\setbookslfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\setbooks\\requestnewshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\setbooks\\requestnewshelf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\wwwroot\\js\\newsuitableshelf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\wwwroot\\js\\newsuitableshelf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\ishelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\ishelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\setbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\setbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +54,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T06:18:38.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Library\\Create.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\Library\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Library\\Create.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\Library\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T06:18:36.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Shelf\\Details.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\Shelf\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Shelf\\Details.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\Shelf\\Details.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T06:18:22.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Shelf\\Create.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\Shelf\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Shelf\\Create.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\Shelf\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T06:18:19.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RequestNewShelf.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T20:28:49.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T20:28:59.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\Index.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\SetBooks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\Index.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\SetBooks\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T06:18:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SetBookslfController.cs",
               "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
               "RelativeDocumentMoniker": "OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
@@ -46,36 +157,11 @@
               "RelativeToolTip": "OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAewCsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T20:30:51.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T20:30:51.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
-              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
-              "RelativeToolTip": "OtzarHaSeforim\\Views\\SetBooks\\Create.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAcwGUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T20:28:59.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestNewShelf.cshtml",
-              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
-              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
-              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
-              "RelativeToolTip": "OtzarHaSeforim\\Views\\SetBooks\\RequestNewShelf.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T20:28:49.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "IShelfService.cs",
               "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\IShelfService.cs",
               "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\IShelfService.cs",
@@ -87,20 +173,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ShelfService.cs",
               "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\ShelfService.cs",
               "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\ShelfService.cs",
               "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\ShelfService.cs",
               "RelativeToolTip": "OtzarHaSeforim\\Service\\ShelfService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAYwFIAAAALAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAA0wFIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T14:17:27.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "newSuitableShelf.js",
               "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\wwwroot\\js\\newSuitableShelf.js",
               "RelativeDocumentMoniker": "OtzarHaSeforim\\wwwroot\\js\\newSuitableShelf.js",
