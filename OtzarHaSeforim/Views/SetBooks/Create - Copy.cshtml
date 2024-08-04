@@ -1,0 +1,152 @@
+﻿@* @model OtzarHaSeforim.ViewModel.SetBooksVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h2>Shelf Id: @ViewBag.ShelfId</h2>
+
+<h4>SetBooksVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div> *@
+
+@*             <div class="form-group">
+                <label asp-for="ShelfId" class="control-label"></label>
+                <input asp-for="ShelfId" class="form-control" />
+                <span asp-validation-for="ShelfId" class="text-danger"></span>
+            </div> *@
+
+
+@*             <input type="hidden" name="shelfId" value="@ViewBag.ShelfId" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@
+
+                @model OtzarHaSeforim.ViewModel.SetBooksVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h2>Shelf Id: @ViewBag.ShelfId</h2>
+
+<h4>SetBooksVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*             <div class="form-group">
+            <label asp-for="Id" class="control-label"></label>
+            <input asp-for="Id" class="form-control" />
+            <span asp-validation-for="Id" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <input type="hidden" name="shelfId" value="@ViewBag.ShelfId" />
+
+            <h4>Books</h4>
+            <div id="books-container">
+                <div class="book-entry">
+                    <div class="form-group">
+                        <label>Book Name</label>
+                        <input type="text" name="Books[0].BookName" class="form-control" />
+                    </div>
+                    @*                     <div class="form-group">
+                    <label>Gender Book</label>
+                    <input type="text" name="Books[0].GenderBook" class="form-control" />
+                    </div> *@
+                    <div class="form-group">
+                        <label>High Book</label>
+                        <input type="number" id="HighBook" name="HighBook" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Width Book</label>
+                        <input type="number" name="Books[0].WidthBook" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="add-book" class="btn btn-secondary">Add another book</button>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('add-book').addEventListener('click', function () {
+            var container = document.getElementById('books-container');
+            var index = container.getElementsByClassName('book-entry').length;
+
+            var bookEntry = document.createElement('div');
+            bookEntry.className = 'book-entry';
+
+            bookEntry.innerHTML = `
+                                <div class="form-group">
+                                    <label>Book Name</label>
+                                    <input type="text" name="Books[${index}].BookName" class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Width Book</label>
+                                    <input type="number" name="Books[${index}].WidthBook" class="form-control" />
+                                </div>
+                            `;
+
+            container.appendChild(bookEntry);
+        });
+
+        // Copy the HighBook value to all new books
+        document.getElementById('HighBook').addEventListener('input', function () {
+            var highValue = this.value;
+            document.querySelectorAll('[name^="Books"]').forEach(function (element) {
+                if (element.name.endsWith('.HighBook')) {
+                    element.value = highValue;
+                }
+            });
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

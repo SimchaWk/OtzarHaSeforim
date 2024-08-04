@@ -1,0 +1,53 @@
+﻿@model OtzarHaSeforim.ViewModel.ShelfVM
+
+@{
+    ViewData["Title"] = "RequestNewShelf";
+}
+
+<h1>RequestNewShelf</h1>
+
+<h4>@ViewBag.Message</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="shelfForm" asp-action="RequestNewShelf">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HighShelf" class="control-label"></label>
+                <input asp-for="HighShelf" class="form-control" id="HighShelf" />
+                <span asp-validation-for="HighShelf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WidthShelf" class="control-label"></label>
+                <input asp-for="WidthShelf" class="form-control" id="WidthShelf" />
+                <span asp-validation-for="WidthShelf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById("shelfForm").addEventListener("submit", function (event) {
+            var requiredWidth = @ViewBag.RequiredWidth;
+            var requiredHeight = @ViewBag.RequiredHeight;
+            var highShelf = document.getElementById("HighShelf").value;
+            var widthShelf = document.getElementById("WidthShelf").value;
+
+            if (widthShelf < requiredWidth || highShelf < requiredHeight) {
+                event.preventDefault();
+                alert("Shelf dimensions are not sufficient. Please enter valid dimensions.");
+            }
+        });
+    </script>
+}

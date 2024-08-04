@@ -1,0 +1,54 @@
+﻿@model IEnumerable<OtzarHaSeforim.Models.ShelfModel>
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<h2>Library Id: @ViewBag.Id</h2>
+
+@* <p>
+    <a asp-action="Create">Create New Shelf</a>
+</p> *@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HighShelf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WidthShelf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LibraryId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HighShelf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WidthShelf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibraryId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Shelf contents", "Index", "SetBooks", new { shelfId = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<OtzarHaSeforim.Models.SetBooksModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h2>Shelf Id: @ViewBag.ShelfId</h2>
+
+<p>
+    <a asp-action="Create" asp-route-shelfId="@ViewBag.ShelfId">Create New Set Of Books</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShelfId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShelfId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit Title", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Set contents", "Details", new { id = item.ShelfId }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
