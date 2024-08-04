@@ -119,5 +119,18 @@ namespace OtzarHaSeforim.Service
 
             return set;
         }
+
+        public SetBooksVM UpdateBooksGenre(SetBooksVM setBooksVM, long libraryId)
+        {
+            LibraryModel? library = _context.Libraries
+                .Where(l => l.Id == libraryId)
+                .FirstOrDefault();
+
+            string libraryGenre = library?.GenreLibrary ?? "UnknownGenre";
+
+            setBooksVM.Books.ForEach(b => b.GenderBook = libraryGenre);
+
+            return setBooksVM;
+        }
     }
 }

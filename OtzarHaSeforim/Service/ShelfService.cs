@@ -56,14 +56,26 @@ namespace OtzarHaSeforim.Service
             return shelf != null ? (shelf.WidthShelf - occupiedSpace) : -1;
         }
 
-        public long FindSuitableShelf(long libraryId, int setWidth, int setHigh) =>
-            _context.Shelves
+        public long FindSuitableShelf(long libraryId, int setWidth, int setHigh)
+        {
+            List<ShelfModel> shelves = _context.Shelves
             .Where(s => s.LibraryId == libraryId)
-            .AsEnumerable()
+            .ToList();
+
+            if (shelves == null) return -1;
+
+            ShelfModel? suitableShelf = shelves
                 .FirstOrDefault(
-                    s => GetShelfFreeSpace(s.Id) >= setWidth && 
+                    s => GetShelfFreeSpace(s.Id) >= setWidth &&
                     s.HighShelf >= setHigh
-                )?.Id ?? -1;
+                );
+
+            if (suitableShelf == null) return -1;
+
+            long? suitableShelfId = suitableShelf.Id;
+
+            return suitableShelfId ?? -1;
+        }
 
 /*        public long FindSuitableShelf(long libraryId, int setWidth, int setHigh)
         {
@@ -81,7 +93,5 @@ namespace OtzarHaSeforim.Service
 
             return suitableShelfId ?? -1;
         }*/
-
-
     }
 }

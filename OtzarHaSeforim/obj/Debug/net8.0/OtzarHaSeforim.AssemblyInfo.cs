@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtzarHaSeforim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b38f20e8a760ba9ea5b8999dca3e7bc0f2bd27bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81e52d9afad8e9c2062e867578336bc558dbc567")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtzarHaSeforim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtzarHaSeforim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

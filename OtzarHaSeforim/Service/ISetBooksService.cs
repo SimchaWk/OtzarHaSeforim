@@ -18,5 +18,7 @@ namespace OtzarHaSeforim.Service
         int SumSetWidth(long setId);
 
         bool CheckShelfHeight(long shelfId, long setId);
+
+        SetBooksVM UpdateBooksGenre(SetBooksVM setBooksVM, long libraryId);
     }
 }

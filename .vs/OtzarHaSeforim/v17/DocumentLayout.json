@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\controllers\\setbookslfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\controllers\\setbookslfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\setbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\setbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\shelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\shelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\wwwroot\\js\\newsuitableshelf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\wwwroot\\js\\newsuitableshelf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\isetbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\isetbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\ishelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\ishelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|c:\\users\\simch\\source\\repos\\otzarhaseforim\\otzarhaseforim\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A9FDFF-7480-4C8A-831F-72781AFEF6A2}|OtzarHaSeforim\\OtzarHaSeforim.csproj|solutionrelative:otzarhaseforim\\service\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +38,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Program.cs",
-              "RelativeDocumentMoniker": "OtzarHaSeforim\\Program.cs",
-              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Program.cs",
-              "RelativeToolTip": "OtzarHaSeforim\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAtwCAAAAAQAAAA",
+              "DocumentIndex": 3,
+              "Title": "ISetBooksService.cs",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\ISetBooksService.cs",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\ISetBooksService.cs",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\ISetBooksService.cs",
+              "RelativeToolTip": "OtzarHaSeforim\\Service\\ISetBooksService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBUAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T06:24:02.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T10:57:27.496Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SetBooksService.cs",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\SetBooksService.cs",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\SetBooksService.cs",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\SetBooksService.cs",
+              "RelativeToolTip": "OtzarHaSeforim\\Service\\SetBooksService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:37:25.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SetBookslfController.cs",
               "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
               "RelativeDocumentMoniker": "OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
               "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
               "RelativeToolTip": "OtzarHaSeforim\\Controllers\\SetBookslfController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAewCwAAAAmAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAASwCsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T20:30:51.433Z",
+              "WhenOpened": "2024-08-04T08:34:45.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IShelfService.cs",
-              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\IShelfService.cs",
-              "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\IShelfService.cs",
-              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\IShelfService.cs",
-              "RelativeToolTip": "OtzarHaSeforim\\Service\\IShelfService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T20:25:01.731Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\appsettings.json",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\appsettings.json",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\appsettings.json",
+              "RelativeToolTip": "OtzarHaSeforim\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-04T08:33:01.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "RelativeToolTip": "OtzarHaSeforim\\Views\\Library\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T08:28:00.157Z"
             },
             {
               "$type": "Document",
@@ -78,21 +109,21 @@
               "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\ShelfService.cs",
               "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\ShelfService.cs",
               "RelativeToolTip": "OtzarHaSeforim\\Service\\ShelfService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAA0wFIAAAALAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAwwE0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:17:27.723Z"
+              "WhenOpened": "2024-08-04T08:23:00.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "newSuitableShelf.js",
-              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\wwwroot\\js\\newSuitableShelf.js",
-              "RelativeDocumentMoniker": "OtzarHaSeforim\\wwwroot\\js\\newSuitableShelf.js",
-              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\wwwroot\\js\\newSuitableShelf.js",
-              "RelativeToolTip": "OtzarHaSeforim\\wwwroot\\js\\newSuitableShelf.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-03T21:05:38.156Z"
+              "DocumentIndex": 6,
+              "Title": "LibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\LibraryService.cs",
+              "RelativeDocumentMoniker": "OtzarHaSeforim\\Service\\LibraryService.cs",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\OtzarHaSeforim\\OtzarHaSeforim\\Service\\LibraryService.cs",
+              "RelativeToolTip": "OtzarHaSeforim\\Service\\LibraryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T06:58:19.447Z"
             }
           ]
         }

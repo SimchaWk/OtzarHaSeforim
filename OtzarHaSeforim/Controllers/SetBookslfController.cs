@@ -65,16 +65,12 @@ namespace OtzarHaSeforim.Controllers
             }
 
             setBooksVM.ShelfId = suitableShelId;
-            string libraryGenre = _context.Libraries
-                .Where(l => l.Id == libraryId)
-                .FirstOrDefault()
-                .GenreLibrary;
 
-            setBooksVM.Books.Select(b => b.GenderBook = libraryGenre);
+            setBooksVM = _setBooksService.UpdateBooksGenre(setBooksVM, libraryId);
 
             SetBooksModel newSetBooks = await _setBooksService.AddSetBooks(setBooksVM);
 
-            return RedirectToAction("Index", new { id = ViewBag.ShelfId });
+            return RedirectToAction("Index", new { id = suitableShelId });
         }
     }
 }
